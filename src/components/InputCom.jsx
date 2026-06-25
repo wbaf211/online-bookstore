@@ -8,7 +8,6 @@ export const InputCom = (props) => {
 
     const {
         field,
-        fieldState: {error}
     } = useController({
         name,
         control
@@ -19,12 +18,10 @@ export const InputCom = (props) => {
     }
 
     return (
-        <div className={`ant-form-item ${error ? "ant-form-item-has-error" : ""}`}>
-            <Input
-                value={field.value}
-                onChange={handleChange}
-                {...rest}
-            />
-        </div>
+        <Input
+            value={field.value}
+            onChange={handleChange}
+            {...rest}
+        />
     )
 }
