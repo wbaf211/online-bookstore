@@ -1,9 +1,18 @@
 import React from "react";
+import './style.css'
 
-export const Home = () => {
+const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <main className="home">
+            <div className="category">
+                <h1>HEHE</h1>
+            </div>
+
+            <div className="booklist">
+                <h1>HIHI</h1>
+            </div>
+        </main>
     )
 }
+
+export default Home

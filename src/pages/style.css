@@ -1,0 +1,12 @@
+.home {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+.category {
+    background-color: red;
+}
+
+.booklist {
+    background-color: purple;
+}
